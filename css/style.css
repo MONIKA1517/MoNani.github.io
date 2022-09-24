@@ -1,0 +1,101 @@
+body{
+  font-family: 'Lora';
+  font-size: 17px;
+  line-height: 1.5;
+  background-color: #fff;
+  background-image: url(../Images/abstract-seamless-heart-pattern-background-paper-vector-23399901.jpg);
+  background-attachment: scroll;
+
+}
+.box{
+  /* background: #e91e63; */
+  background:Crimson;
+  padding: 60px 60px;
+  color: #fff;
+  width: 50%;
+  text-align :center;
+  margin: 25vh auto;
+  position: relative;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+.box h2{
+  color:Aquamarine;
+  font-style: Sacramento;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.box h3{
+  color:Aquamarine;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 5px;
+  font-style: bold;
+}
+
+.top-border:before{
+  content:'';
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  /* background: url(../Images/about-pattern-left-top.jpg); */
+  /* background: url(https://i.ibb.co/nrmkm7d/five-bells-washed-out-logo.png); */
+  background-size: cover;
+  top: 20px;
+  left: 20px;
+}
+.bottom-border:before{
+  content:'';
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  background: url(about-pattern-left-top.png);
+  background-size: cover;
+  bottom: 20px;
+  left: 20px;
+  transform: rotate(270deg);
+
+}
+.top-border:after{
+  content:'';
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  background: url(about-pattern-left-top.png);
+  background-size: cover;
+  bottom: 20px;
+  left: 20px;
+  transform: rotate(270deg);
+
+}
+.bottom-border:after{
+  content:'';
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  background: url(about-pattern-left-top.png);
+  bottom: 20px;
+  right: 20px;
+  transform: rotate(180deg);
+
+}
+
+.box img{
+  width: 100px;
+
+}
+.love{
+  animation: pulse is ease infinite;
+  display: inline-block;
+
+}
+@keyframes pulse {
+  0%{ transform: scale(1);}
+  50%{transform: scale(1.3);}
+  100%{transform: scale(1);}
+
+}
